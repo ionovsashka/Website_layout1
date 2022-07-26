@@ -1,0 +1,235 @@
+<!--Сообщаем браузеру как стоит обрабатывать эту страницу-->
+<!DOCTYPE html>
+<!--Оболочка документа, указываем язык содержимого-->
+<html lang="ru">
+<!--Заголовок страницы, контейнер для других важных данных(не отображается)-->
+
+<head>
+	<!--Заголовок страницы в браузере-->
+	<title>My Company</title>
+	<!--Подключение CSS-стиелй-->
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<!--Кодировка страницы-->
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+</head>
+<!--Отображаемое тело страницы-->
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo">mycompany</a>
+				<div class="header__menu menu">
+					<div class="menu__icon">
+						<span></span>
+					</div>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li><a data-goto=".mainscreen" href="#" class="menu__link">Home</a></li>
+							<li><a data-goto=".section-about" href="#" class="menu__link">About</a></li>
+							<li><a data-goto=".section-services" href="#" class="menu__link">Services</a></li>
+							<li><a data-goto=".section-clients" href="#" class="menu__link">Portfolio</a></li>
+							<li><a data-goto=".section-testimonials" href="#" class="menu__link">Testimonials</a></li>
+							<li><a data-goto=".section-contact" href="#" class="menu__link">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="mainscreen">
+				<div class="mainscreen__content">
+					<h1 class="mainscreen__title">Welcome on <span>mycompany</span></h1>
+					<p class="mainscreen__subtitle">We are a digital agency with <span>years of experience</span> and with
+						<span>extraordinary people</span></p>
+				</div>
+			</div>
+			<section class="page__about section-about about">
+				<div class="about__container">
+					<div class="about__left">
+						<img src="image/mac.png" alt="">
+					</div>
+					<div class="about__right">
+						<h2 class="about__title">Some words <span>about us</span></h2>
+						<div class="about__content-container">
+							<div class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex
+								quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus.</div>
+							<ul class="about__list">
+								<li><span>Mission -</span> We deliver uniqueness and quality</li>
+								<li><span>Skills -</span> Delivering fast and excellent results</li>
+								<li><span>Clients -</span> Satisfied clients thanks to our experience</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__team section-team team">
+				<h2 class="team__title title">our team</h2>
+				<div class="team__container">
+					<div class="team__personal-card">
+						<div class="team__photo">
+							<img src="image/quadro.jpeg" alt="">
+						</div>
+						<div class="team__name">Anastasia Ivanova</div>
+						<div class="team__position">Designer</div>
+						<div class="team__description">Do not seek to change what has come before. Seek to create that which
+							has not.</div>
+					</div>
+					<div class="team__personal-card">
+						<div class="team__photo">
+							<img src="image/quadro.jpeg" alt="">
+						</div>
+						<div class="team__name">Bogdan Makarov</div>
+						<div class="team__position">Manager</div>
+						<div class="team__description">Do not seek to change what has come before. Seek to create that which
+							has not.</div>
+					</div>
+					<div class="team__personal-card">
+						<div class="team__photo">
+							<img src="image/quadro.jpeg" alt="">
+						</div>
+						<div class="team__name">Ekaterina Solovieva</div>
+						<div class="team__position">Copywriter</div>
+						<div class="team__description">Do not seek to change what has come before. Seek to create that which
+							has not.</div>
+					</div>
+					<div class="team__personal-card">
+						<div class="team__photo">
+							<img src="image/quadro.jpeg" alt="">
+						</div>
+						<div class="team__name">Max Belov</div>
+						<div class="team__position">SEO</div>
+						<div class="team__description">Do not seek to change what has come before. Seek to create that which
+							has not.</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__services section-services services">
+				<h2 class="services__title title">our services</h2>
+				<div class="services__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem
+					maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi
+					porro ipsa tenetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores
+					ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro
+					ipsa tenetur.</div>
+				<div class="services__container">
+					<div class="services__card">
+						<div class="services__icon">
+							<img src="image/computer.jpg" alt="">
+						</div>
+						<div class="services__name">Web design</div>
+						<div class="services__description">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+							comes from a line in section 1.10.32.</div>
+					</div>
+					<div class="services__card">
+						<div class="services__icon">
+							<img src="image/phone.jpg" alt="">
+						</div>
+						<div class="services__name">Mobile apps</div>
+						<div class="services__description">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+							comes from a line in section 1.10.32.</div>
+					</div>
+					<div class="services__card">
+						<div class="services__icon">
+							<img src="image/photocamera.jpg" alt="">
+						</div>
+						<div class="services__name">PHOTOGRAPHY</div>
+						<div class="services__description">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+							comes from a line in section 1.10.32.</div>
+					</div>
+					<div class="services__card">
+						<div class="services__icon">
+							<img src="image/megaphone.jpg" alt="">
+						</div>
+						<div class="services__name">marketing</div>
+						<div class="services__description">The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..",
+							comes from a line in section 1.10.32.</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__clients section-clients clients">
+				<h2 class="clients__title title">SOME OF <span>OUR CLIENTS</span></h2>
+				<div class="clients__list">
+					<img src="image/clients/chanel.png" alt="" class="clients__link">
+					<img src="image/clients/zara.png" alt="" class="clients__link">
+					<img src="image/clients/guerlain.png" alt="" class="clients__link">
+					<img src="image/clients/lancome.png" alt="" class="clients__link">
+					<img src="image/clients/lacoste.png" alt="" class="clients__link">
+				</div>
+			</section>
+			<section class="page__gallery section-gallery gallery">
+				<div class="gallery__title title">take a look at <span>our work</span></div>
+				<div class="gallery__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem
+					maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi
+					porro ipsa tenetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores
+					ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro
+					ipsa tenetur.</div>
+				<div class="gallery__container">
+					<img src="image/image1.jpg" alt="">
+					<img src="image/image1.jpg" alt="">
+					<img src="image/image1.jpg" alt="">
+					<img src="image/image1.jpg" alt="">
+					<img src="image/image2.jpg" alt="">
+					<img src="image/image2.jpg" alt="">
+					<img src="image/image2.jpg" alt="">
+					<img src="image/image2.jpg" alt="">
+					<img src="image/image3.jpg" alt="">
+					<img src="image/image3.jpg" alt="">
+					<img src="image/image3.jpg" alt="">
+					<img src="image/image3.jpg" alt="">
+				</div>
+			</section>
+			<section class="page__testimonials section-testimonials testimonials">
+				<div class="testimonials__title title"><span>our clients’</span> testimonials</div>
+				<div class="testimonials__container">
+					<div class="testimonials__quote">This book is a treatise on the theory of ethics, very popular during the
+						Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in
+						section 1.10.32.</div>
+					<div class="testimonials__signature">Dean Martin, <span>CEO Acme Inc.</span></div>
+				</div>
+			</section>
+			<section class="page__contact section-contact contact">
+				<div class="contact__container">
+					<div class="contact__title title">contact us</div>
+					<div class="contact__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem
+						maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit
+						excepturi porro ipsa tenetur.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</div>
+					<form action="#" method="post" class="contact__form-container">
+						<div class="contact__input-container">
+							<div class="contact__name-input">
+								<div class="contact__name">Name <span>*</span></div>
+								<input placeholder="Enter your name" type="text" class="contact__input">
+							</div>
+							<div class="contact__email-input">
+								<div class="contact__name">Email address <span>*</span></div>
+								<input placeholder="Enter your e-mail" type="text" class="contact__input">
+							</div>
+						</div>
+						<div class="contact__message-textarea">
+							<div class="contact__name">Message <span>*</span></div>
+							<textarea name="" id="" cols="" rows="" class="contact__message"></textarea>
+						</div>
+						<div class="contact__button">
+							<button type="submit"><span>SEND</span></button>
+						</div>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<ul class="footer__list">
+				<li class="footer__link"><a target="_blank" href="#"><img src="image/footer/facebook.png" alt=""></a></li>
+				<li class="footer__link"><a target="_blank" href="#"><img src="image/footer/twitter.png" alt=""></a></li>
+				<li class="footer__link"><a target="_blank" href="#"><img src="image/footer/google+.png" alt=""></a></li>
+				<li class="footer__link"><a target="_blank" href="#"><img src="image/footer/linkedin.png" alt=""></a></li>
+				<li class="footer__link"><a target="_blank" href="#"><img src="image/footer/dribbble.png" alt=""></a></li>
+			</ul>
+		</footer>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
